@@ -1,0 +1,13 @@
+[book]
+authors = ["rhv9"]
+language = "en"
+multilingual = false
+src = "pages"
+title = "CCNA"
+
+[preprocessor.last_modified]
+command = "python last_modified.py"
+
+[output.html]
+git-repository-url = "https://github.com/rhv9/ccna-book"
+additional-js = ["custom.js"]
